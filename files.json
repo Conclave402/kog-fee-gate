@@ -1,0 +1,56 @@
+{
+ "kit": "lax-registry-harness",
+ "version": 1,
+ "sha256": "536b5c26bbb921f59a9ceb533fe7aed207feaa39bfa3b5e633392b10e95fe5c1",
+ "digest_rule": "sha256 of the lines \"<sha256 of the file>  <path>\\n\", sorted by path, files.json left out",
+ "files": [
+  {
+   "path": "README.md",
+   "sha256": "4fdd5f534c7062791bb8f67a3cfe5b2fc298e2a7bb62c1890f4a8e10573935ec"
+  },
+  {
+   "path": "examples/fee-gate.test.ts",
+   "sha256": "8a277abf654c5928b49488e8536f8c9326c04ed7fbaa1ba742e7aa40b232fc99"
+  },
+  {
+   "path": "package.json",
+   "sha256": "ee830ca6be55a2c430ab8cd7f9ac82f699c5ea07f29b57dae6b75a62a4c7e636"
+  },
+  {
+   "path": "registry/bids.ts",
+   "sha256": "c195e6b90cc93f2331e248e388c542918311691c99fb62f015081889df8ce30c"
+  },
+  {
+   "path": "registry/handler.ts",
+   "sha256": "11fd2810281a3264a10230b6045d8309b9fa7e1c49f3b98845067e9385236bd2"
+  },
+  {
+   "path": "registry/jobs.ts",
+   "sha256": "dc2c970271e9eebf0851c25a7fb1d72a7273e7d58293197e5f344652414b7beb"
+  },
+  {
+   "path": "registry/pact.ts",
+   "sha256": "11de7eaf8d671be29d2991e62595864a7a2ff8967109dd711942e9a7fbd035b3"
+  },
+  {
+   "path": "src/harness.ts",
+   "sha256": "e09897b78224a5629a501d512ace515ba2badb1d5547335c6da0273939e8ff7a"
+  },
+  {
+   "path": "src/kog-fee.ts",
+   "sha256": "7d6d5f4987a4f504a8cdf1256513e16a4cd33fbf6c14d876d417f9e2eb8d007d"
+  },
+  {
+   "path": "src/load.ts",
+   "sha256": "7a6d0ea806cae658c9fb52b3afaae0ebad215047f39095cdbfcc7eb6e281cdfe"
+  },
+  {
+   "path": "src/memory-store.ts",
+   "sha256": "2978de7c3ea4966eb7a9bb5bd565ce819ad3a167f10b2781b3e7aca88de89197"
+  },
+  {
+   "path": "test/harness.test.ts",
+   "sha256": "ce028b6c1d1db82a1341b77b4f332f6a6d95032db3aadd6e37628bcd211755d0"
+  }
+ ]
+}

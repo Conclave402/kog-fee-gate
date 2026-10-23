@@ -1,0 +1,15 @@
+{
+  "name": "kognai-kit-lax-registry-harness",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The LAX registry handler with in memory stores and the KOG fee gate, for tests (Kognai Genesis kit, version 1).",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts examples/*.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "4.23.13",
+    "viem": "2.47.0"
+  }
+}
